@@ -1,0 +1,43 @@
+<svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'
+         width='104.1mm' height='62mm' viewPort='0 104.1 62'
+
+         >
+
+  <link
+    xmlns="http://www.w3.org/1999/xhtml"
+    rel="stylesheet"
+    href="style.css"
+    type="text/css" />
+
+	<g transform='translate(9.4488 9.4488)' class='label'>
+
+		<rect x="-1mm" y="2.5mm" width="4mm" height="49.5mm" style='fill:oklch(85% 20% 360);' class='label-border'></rect>
+		<rect x="96.1mm" y="2.5mm" width="4mm" height="49.5mm" style='fill:oklch(85% 20% 360)' class='label-border'></rect>
+
+		<rect x='0' y='0' width='99.1mm' height='57mm' class='label-background'>
+		</rect>
+
+
+			<text x='5mm' y='15.5mm' style='font-size:14mm' class='label-title'>
+				Batteries
+			</text>
+
+			<text x='6mm' y='26mm' style='font-size:6mm' class='label-subtitle'>
+				AA, AAA, 9V, Button/Coin
+			</text>
+
+			<image x='5mm' y='31mm' width='22mm' height='22mm' href='icons/Battery-Indicator--Streamline-Iconoir.svg' class='icon'/>
+
+			<image x='30mm' y='33mm' width='12mm' height='12mm' href='icons/Flash--Streamline-Iconoir.svg' class='icon'/>
+
+			<image x='42mm' y='39mm' width='12mm' height='12mm' href='icons/Atom--Streamline-Iconoir.svg' class='icon'/>
+
+			<image x='54mm' y='33mm' width='12mm' height='12mm' href='icons/Atom--Streamline-Iconoir.svg' class='icon'/>
+
+			<text x='93mm' y='50mm' style='font-size:3mm; text-anchor: end; fill: rgba(0,0,0, 33%)' class='timestamp'>
+				2025-Jan-12 T 20:22
+			</text>
+
+
+	</g>
+</svg>

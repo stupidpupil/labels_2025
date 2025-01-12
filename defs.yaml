@@ -1,0 +1,42 @@
+- title: Batteries
+  subtitle: AA, AAA, 9V, Button/Coin
+  icons: [Battery-Indicator--Streamline-Iconoir, Flash--Streamline-Iconoir, Atom--Streamline-Iconoir]
+
+- title: Cylinder cells
+  subtitle: AA, AAA batteries, etc.
+  icons: [Cylinder--Streamline-Phosphor, Battery-Indicator--Streamline-Iconoir, Flash--Streamline-Iconoir, Atom--Streamline-Iconoir]
+
+- title: Coin batteries
+  subtitle: For car keys, door opener, etc.
+  icons: [Coin--Streamline-Phosphor, Battery-Indicator--Streamline-Iconoir, Flash--Streamline-Iconoir, Atom--Streamline-Iconoir]
+
+- title: Candles
+  subtitle: Tealights, scented
+  icons: [Candle--Streamline-Sharp-Material, Fire-Flame--Streamline-Iconoir, Light--Streamline-Carbon]
+
+- title: Light bulbs
+  subtitle: Bayonet (B22), Edison screw (E27)
+  icons: [Light-Bulb--Streamline-Iconoir, Flash--Streamline-Iconoir, Light--Streamline-Carbon]
+
+
+- title: Identity docs
+  subtitle: Birth and death certs, passports
+  icons: [Passports--Streamline-Guidance-Free, Page--Streamline-Iconoir, 
+  Skull-Outline--Streamline-Ionic-Outline, Egg-Crack--Streamline-Phosphor,]
+
+
+- title: USB cables
+  subtitle: USB-A, USB-C
+  icons: [Cable--Streamline-Sharp-Material, Usb--Streamline-Iconoir]
+
+- title: Display cables
+  subtitle: HDMI
+  icons: [Cable--Streamline-Sharp-Material, Display--Streamline-Font-Awesome]
+
+- title: Razor blades
+  subtitle: Fresh blades, disposal
+  icons: [Blade--Streamline-Tabler-Filled, Mirror-Sink--Streamline-Atlas]
+
+- title: Toothbrush
+  subtitle: Philips toothbrush heads
+  icons: [Tooth-Brush-Paste--Streamline-Atlas, Mirror-Sink--Streamline-Atlas, Tooth--Streamline-Core-Remix]

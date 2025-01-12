@@ -1,0 +1,69 @@
+<svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'
+         width='210mm' height='297mm' viewPort='0 0 2100 2970' >
+
+  <link
+    xmlns="http://www.w3.org/1999/xhtml"
+    rel="stylesheet"
+    href="style.css"
+    type="text/css" />
+
+
+  <g transform='translate(17.76377952755906 22.67716535433071)' class='column'>
+
+		<g transform='translate(0 0)' class='label'>
+			<rect x='0' y='0' width='99.1mm' height='57mm' class='label-background'>
+			</rect>
+		</g>
+
+		<g transform='translate(0 215.43307086614175)' class='label'>
+			<rect x='0' y='0' width='99.1mm' height='57mm' class='label-background'>
+			</rect>
+		</g>
+
+		<g transform='translate(0 430.8661417322835)' class='label'>
+			<rect x='0' y='0' width='99.1mm' height='57mm' class='label-background'>
+			</rect>
+		</g>
+
+		<g transform='translate(0 646.2992125984252)' class='label'>
+			<rect x='0' y='0' width='99.1mm' height='57mm' class='label-background'>
+			</rect>
+		</g>
+
+		<g transform='translate(0 861.732283464567)' class='label'>
+			<rect x='0' y='0' width='99.1mm' height='57mm' class='label-background'>
+			</rect>
+		</g>
+
+	</g>
+
+ <g transform='translate(401.38582677165357 22.67716535433071)' class='column'>
+
+		<g transform='translate(0 0)' class='label'>
+			<rect x='0' y='0' width='99.1mm' height='57mm' class='label-background'>
+			</rect>
+		</g>
+
+		<g transform='translate(0 215.43307086614175)' class='label'>
+			<rect x='0' y='0' width='99.1mm' height='57mm' class='label-background'>
+			</rect>
+		</g>
+
+		<g transform='translate(0 430.8661417322835)' class='label'>
+			<rect x='0' y='0' width='99.1mm' height='57mm' class='label-background'>
+			</rect>
+		</g>
+
+		<g transform='translate(0 646.2992125984252)' class='label'>
+			<rect x='0' y='0' width='99.1mm' height='57mm' class='label-background'>
+			</rect>
+		</g>
+
+		<g transform='translate(0 861.732283464567)' class='label'>
+			<rect x='0' y='0' width='99.1mm' height='57mm' class='label-background'>
+			</rect>
+		</g>
+
+	</g>
+
+</svg>
