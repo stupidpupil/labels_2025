@@ -12,3 +12,5 @@ gem "puma", "~> 6.5"
 gem "rerun", "~> 0.14.0"
 
 gem "nokogiri", "~> 1.18"
+
+gem "rqrcode", "~> 2.2"

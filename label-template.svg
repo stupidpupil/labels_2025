@@ -26,6 +26,10 @@
 				AA, AAA, 9V, Button/Coin
 			</text>
 
+			<text x='6mm' y='34mm' style='font-size:6mm' class='label-subsubtitle'>
+				AA, AAA, 9V, Button/Coin
+			</text>
+
 			<image x='5mm' y='31mm' width='22mm' height='22mm' href='icons/Battery-Indicator--Streamline-Iconoir.svg' class='icon'/>
 
 			<image x='30mm' y='33mm' width='12mm' height='12mm' href='icons/Flash--Streamline-Iconoir.svg' class='icon'/>

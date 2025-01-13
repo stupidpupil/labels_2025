@@ -1,6 +1,99 @@
-- title: Batteries
-  subtitle: AA, AAA, 9V, Button/Coin
-  icons: [Battery-Indicator--Streamline-Iconoir, Flash--Streamline-Iconoir, Atom--Streamline-Iconoir]
+- title: USB cables
+  subtitle: USB-A, USB-C
+  icons: [Cable--Streamline-Sharp-Material, Usb--Streamline-Iconoir]
+
+- title: Display cables
+  subtitle: HDMI
+  icons: [Cable--Streamline-Sharp-Material, Display--Streamline-Font-Awesome]
+
+- title: Net cables
+  subtitle: Ethernet
+  icons: [Cable--Streamline-Sharp-Material, Ethernet-Port--Streamline-Atlas]
+
+- title: Cables
+  subtitle: USB, Display, Network
+  icons: [Cable--Streamline-Sharp-Material]
+
+- title: Keyboards
+  subtitle: For computers
+  icons: [Keyboard--Streamline-Atlas, Usb--Streamline-Iconoir, Bluetooth--Streamline-Sharp-Remix]
+
+- title: Bicycle pumps
+  subtitle: For bicycle tyres
+  icons: [Tire-Bold--Streamline-Phosphor, Bicycle--Streamline-Atlas, Handyman--Streamline-Rounded-Material]
+
+
+- title: Fabric recycle
+  subtitle: Clean only
+  icons: [Recycle--Streamline-Lucide, Apparel--Streamline-Sharp-Material]
+
+- title: E-waste
+  subtitle: Not batteries
+  icons: [Recycle--Streamline-Lucide, Keyboard--Streamline-Atlas]
+
+
+- title: Used blades
+  subtitle: Razor blades for recycling
+  icons: [Recycle--Streamline-Lucide, Blade--Streamline-Tabler-Filled]
+
+- title: Glue
+  subtitle:
+
+- title: Hard drives
+  subtitle: Not cleansed
+
+- title: WiFi
+  subtitle: Ty CXB 🚀
+  subsubtitle: "Pass: ericbear"
+  qr: WIFI:S:Ty CXB 🚀;T:WPA;P:ericbear;H:false;;
+
+- title: E119
+  subtitle: Boiler error
+  qr: https://hackmd.io/@zetetic/SyA_Ch-DJe
+  icons: [Severe-Cold-Fill--Streamline-Outlined-Fill-Material, Bug--Streamline-Core, Question--Streamline-Font-Awesome, ]
+
+- title: Spectacles
+  subtitle: For reglazing with new 'scripts
+  icons: [Glasses--Streamline-Lucide, Recycle--Streamline-Lucide]
+
+- title: Эстеретта
+  subtitle: Drosperinone & estetrol
+  qr: https://bnf.nice.org.uk/drugs/drospirenone-with-estetrol/
+  qr_small: true
+  icons: [Pills-2--Streamline-Solar, Gender-Trans--Streamline-Bootstrap, Health-Services--Streamline-Guidance-Free]
+
+- title: Tadalafil
+  subtitle: For erectile dysfunction
+  qr: https://bnf.nice.org.uk/drugs/tadalafil/
+  qr_small: true
+  icons: [Pills-2--Streamline-Solar, Gender-Trans--Streamline-Bootstrap, Eiffel-Tower-Paris--Streamline-Atlas]
+
+- title: Progesterone
+  subtitle: For going to sleep
+  qr: https://bnf.nice.org.uk/drugs/progesterone/
+  qr_small: true
+  icons: [Pills-2--Streamline-Solar]
+
+
+- title: Modafinil 
+  subtitle: For staying awake
+  qr: https://bnf.nice.org.uk/drugs/modafinil/
+  qr_small: true
+  icons: [Pills-2--Streamline-Solar, Light--Streamline-Carbon]
+
+- title: First aid
+  subtitle: Medication, dressings
+  icons: [Health-Services--Streamline-Guidance-Free, Pills-2--Streamline-Solar, Adhesive-Plaster--Streamline-Solar]
+  hue: 0
+
+- title: Inner tubes
+  subtitle: For bicycle tyres
+  icons: [Tire-Bold--Streamline-Phosphor, Bicycle--Streamline-Atlas, Handyman--Streamline-Rounded-Material]
+
+
+- title: Paint, brushes
+  subtitle: Incl. for fabric and skin
+  icons: [Color-Bucket-Brush--Streamline-Ultimate, Pen-Draw-1--Streamline-Ultimate]
 
 - title: Cylinder cells
   subtitle: AA, AAA batteries, etc.
@@ -22,16 +115,7 @@
 - title: Identity docs
   subtitle: Birth and death certs, passports
   icons: [Passports--Streamline-Guidance-Free, Page--Streamline-Iconoir, 
-  Skull-Outline--Streamline-Ionic-Outline, Egg-Crack--Streamline-Phosphor,]
-
-
-- title: USB cables
-  subtitle: USB-A, USB-C
-  icons: [Cable--Streamline-Sharp-Material, Usb--Streamline-Iconoir]
-
-- title: Display cables
-  subtitle: HDMI
-  icons: [Cable--Streamline-Sharp-Material, Display--Streamline-Font-Awesome]
+  Skull-Outline--Streamline-Ionic-Outline, Egg-Crack--Streamline-Phosphor]
 
 - title: Razor blades
   subtitle: Fresh blades, disposal

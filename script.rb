@@ -1,6 +1,7 @@
 require 'yaml'
 require 'sinatra'
 require 'nokogiri'
+require 'rqrcode'
 
 set :public_folder, __dir__
 
@@ -17,26 +18,54 @@ get '/page.svg' do
 
 	label_definitions.each_with_index do |ld, li|
 		label = Nokogiri::XML(File.open("label-template.svg"))
+	  
 	  title = label.at_css(".label-title")
-	  title.content = ld["title"]
+	  title.content = ld["title"] || ""
 
 	  subtitle = label.at_css(".label-subtitle")
-	  subtitle.content = ld["subtitle"]
+	  subtitle.content = ld["subtitle"] || ""
+
+	  subsubtitle = label.at_css(".label-subsubtitle")
+	  subsubtitle.content = ld["subsubtitle"] || ""
 
 	  timestamp = label.at_css(".timestamp")
 	  timestamp.content = Time.now.strftime("%Y-%b-%d T %H:%M")
 
-	  border_colour = (title.content + subtitle.content).hash % 360
+	  label_hue = ld['hue'] || (title.content + subtitle.content).hash % 360
 	  borders = label.css(".label-border")
-	  borders.each {|b| b['style'] = "fill:oklch(85% 20% #{border_colour})"}
+	  borders.each {|b| b['style'] = "fill:oklch(85% 20% #{label_hue})"}
+
+	  if ld['qr'] then
+	  	qr = RQRCode::QRCode.new(ld['qr'], {level: 'm'})
+
+	  	qr_version = qr.qrcode.send :minimum_version
+	  	qr_width = (4*qr_version+17)
+	  	scale_factor = 143.5/qr_width #HACK
+
+	  	puts qr_width
+	  	qr_svg = qr.as_svg(
+	  		color: "oklch(45% 15% #{label_hue})",
+	  		standalone: false,
+	  		use_path: true,
+	  		module_size: 1
+	  	).gsub("#oklch", "oklch") #HACK
+
+	  	unless ld['qr_small']
+		  	label.at_css("g.label").add_child("<g transform='translate(209, 19) scale(#{scale_factor} #{scale_factor})'>#{qr_svg}</g>")
+		  else
+		  	label.at_css("g.label").add_child("<g transform='translate(280, 100) scale(#{scale_factor/2} #{scale_factor/2})'>#{qr_svg}</g>")
+		  end
+	  end
 
 	  icons = label.css("image.icon")
 
-	  ld["icons"].each_with_index do |ic, ii|
+	  icon_defs = ld["icons"] || []
+
+	  icon_defs.each_with_index do |ic, ii|
 	  	icons[ii]["href"] = "icons/#{ic}.svg"
 	  end
 
-	  while icons.length > ld["icons"].length
+	  while icons.length > icon_defs.length
 	  	icons.last.remove
 	  	icons.pop
 	  end
