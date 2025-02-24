@@ -9,7 +9,7 @@
 
   <defs></defs>
 
-  <g transform='translate(17.76377952755906 22.67716535433071)' class='column'>
+  <g transform='translate(17.76377952755906 20)' class='column'>
 
 		<g transform='translate(0 0)' class='label'>
 			<rect x='0' y='0' width='99.1mm' height='57mm' class='label-background'>
@@ -38,7 +38,7 @@
 
 	</g>
 
- <g transform='translate(401.38582677165357 22.67716535433071)' class='column'>
+ <g transform='translate(401.38582677165357 20)' class='column'>
 
 		<g transform='translate(0 0)' class='label'>
 			<rect x='0' y='0' width='99.1mm' height='57mm' class='label-background'>
