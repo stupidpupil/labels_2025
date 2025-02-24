@@ -1,0 +1,29 @@
+<svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'
+         width='104.1mm' height='62mm' viewPort='0 104.1 62'
+
+         >
+
+  <link
+    xmlns="http://www.w3.org/1999/xhtml"
+    rel="stylesheet"
+    href="style.css"
+    type="text/css" />
+
+	<g transform='translate(9.4488 9.4488)' class='label'>
+
+		<rect x='0' y='0' width='99.1mm' height='57mm' class='label-background'>
+		</rect>
+
+		<!-- https://www.royalmailtechnical.com/rmt_docs/User_Guides_2024/Guide_For_Clear_Addressing_20240402.pdf#page=33 -->
+		<foreignObject x='0' y='0' width='99.1mm' height='57mm' >
+			<div xmlns="http://www.w3.org/1999/xhtml" style="margin:5mm; font-family:'Lucida Sans Typewriter', 'Lucida Console', sans-serif; font-size: 8mm; line-height:1.2em;  font-variant-numeric: slashed-zero lining-nums tabular-nums;">
+				<p style="margin:0;">D Faydhebe</p>
+				<p style="margin:0;">300 Western Road</p>
+				<p style="text-transform:uppercase; margin:0;">OXFORD</p>
+				<p style="margin:0;">OX4 5ZZ</p>
+			</div>
+		</foreignObject>
+
+
+	</g>
+</svg>
