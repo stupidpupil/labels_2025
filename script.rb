@@ -14,9 +14,19 @@ get '/page.svg' do
 
 	label_definitions = YAML.load_file("defs.yaml")
 
-	label_definitions = label_definitions[offset, offset+10]
+	label_definitions = label_definitions[offset..offset+9]
 
 	label_definitions.each_with_index do |ld, li|
+		if ld["svg"] then
+			label = Nokogiri::XML(File.open(ld["svg"]))
+			label.remove_namespaces!
+		  labels[li].inner_html = label.at_css("g.label").inner_html
+		  page.at_css("defs").inner_html = 
+		  	page.at_css("defs").inner_html + label.at_css("defs").inner_html
+			next
+		end
+
+
 		label = Nokogiri::XML(File.open("label-template.svg"))
 	  
 	  title = label.at_css(".label-title")

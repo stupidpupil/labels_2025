@@ -1,10 +1,8 @@
-- title: USB cables
-  subtitle: USB-A, USB-C
-  icons: [Cable--Streamline-Sharp-Material, Usb--Streamline-Iconoir]
+- title: Coffee
+  svg: label-coffee.svg
 
-- title: Display cables
-  subtitle: HDMI
-  icons: [Cable--Streamline-Sharp-Material, Display--Streamline-Font-Awesome]
+- title: Apple Laptops
+  subtitle: MacBook Pro, PowerBook, iBook
 
 - title: Net cables
   subtitle: Ethernet
@@ -36,11 +34,29 @@
   subtitle: Razor blades for recycling
   icons: [Recycle--Streamline-Lucide, Blade--Streamline-Tabler-Filled]
 
-- title: Glue
-  subtitle:
+- title: Batt. recycle
+  subtitle: Battery recycling
+  icons: [Recycle--Streamline-Lucide, Battery-Indicator--Streamline-Iconoir]
+
+- title: Euro adaptors
+  subtitle: UK-to-Europe mains adaptors
+  icons: [Electric-Cord-3--Streamline-Core, Euro--Streamline-Sharp-Material, Flash--Streamline-Iconoir]
+
+
+- title: Glue & tape
+  subtitle: Permanent and temporary
+  icons: [Marker-Circle--Streamline-Phosphor, Tape--Streamline-Atlas]
 
 - title: Hard drives
   subtitle: Not cleansed
+
+- title: USB cables
+  subtitle: USB-A, USB-C
+  icons: [Cable--Streamline-Sharp-Material, Usb--Streamline-Iconoir]
+
+- title: Display cables
+  subtitle: HDMI
+  icons: [Cable--Streamline-Sharp-Material, Display--Streamline-Font-Awesome]
 
 - title: WiFi
   subtitle: Ty CXB 🚀
