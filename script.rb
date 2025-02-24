@@ -22,7 +22,7 @@ get '/page.svg' do
 			label.remove_namespaces!
 		  labels[li].inner_html = label.at_css("g.label").inner_html
 		  page.at_css("defs").inner_html = 
-		  	page.at_css("defs").inner_html + label.at_css("defs").inner_html
+		  	page.at_css("defs").inner_html + (label.at_css("defs")&.inner_html).to_s
 			next
 		end
 
