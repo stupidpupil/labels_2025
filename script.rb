@@ -23,6 +23,9 @@ get '/page.svg' do
 		  labels[li].inner_html = label.at_css("g.label").inner_html
 		  page.at_css("defs").inner_html = 
 		  	page.at_css("defs").inner_html + (label.at_css("defs")&.inner_html).to_s
+
+		  # HACK
+		  labels[li].inner_html = labels[li].inner_html.gsub("<div", "<div xmlns=\"http://www.w3.org/1999/xhtml\"")
 			next
 		end
 
